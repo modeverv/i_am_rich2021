@@ -1,3 +1,9 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(MaterialApp(home: Text("日本語")));
+void main() => runApp(
+      const MaterialApp(
+        home: Center(
+          child: Text("日本語です"),
+        ),
+      ),
+    );
