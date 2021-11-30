@@ -7,11 +7,10 @@ void main() => runApp(
             title: const Text('I Am Rich'),
             backgroundColor: Colors.blueGrey[900],
           ),
-          backgroundColor: Colors.blueAccent,
+          backgroundColor: Colors.blueGrey,
           body: const Center(
             child: Image(
-              image: NetworkImage(
-                  'https://img07.shop-pro.jp/PA01114/681/PA01114681_sp.jpg?cmsp_timestamp=20211018215615'),
+              image: AssetImage('images/diamond.png'),
             ),
           ),
         ),
